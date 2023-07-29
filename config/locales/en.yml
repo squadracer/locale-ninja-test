@@ -32,3 +32,6 @@
 en:
   hello: "Hello world"
   bye: "Bye"
+  test:
+    test_2: "en"
+
