@@ -1,3 +1,5 @@
 de:
   hello: "Hallo welt"
   bye: ""
+  test:
+    test_2: "de"
