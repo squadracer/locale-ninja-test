@@ -1,3 +1,5 @@
 fr:
   hello: "Salut le monde"
   bye: "au revoir"
+  test:
+    test_2: "fr"
