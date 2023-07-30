@@ -1,5 +1,6 @@
+---
 de:
-  hello: "Hallo welt"
-  bye: ""
+  hello: Hallo welt
+  bye: Bis Bald
   test:
-    test_2: "de"
+    test_2: de
