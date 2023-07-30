@@ -1,5 +1,5 @@
-it:
-  hello: ""
+es:
+  hello: "Hallo welt"
   table: ""
   tree: ""
   baguette: ""
@@ -7,4 +7,4 @@ it:
   bird: ""
   bye: ""
   test:
-    test_2: 
+    test_2: "de"

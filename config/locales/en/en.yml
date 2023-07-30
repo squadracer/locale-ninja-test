@@ -31,6 +31,11 @@
 
 en:
   hello: "Hello world"
+  table: ""
+  tree: ""
+  baguette: ""
+  sailor: ""
+  bird: ""
   bye: "Bye"
   test:
     test_2: "en"

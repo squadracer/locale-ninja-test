@@ -1,5 +1,10 @@
 de:
   hello: "Hallo welt"
+  table: ""
+  tree: ""
+  baguette: ""
+  sailor: ""
+  bird: ""
   bye: ""
   test:
     test_2: "de"

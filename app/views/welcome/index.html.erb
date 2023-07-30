@@ -1,0 +1,54 @@
+<div class="w-full flex justify-center">
+  <h1 class="text-5xl font-bold m-20">🥷 Locale Ninja</h1>
+</div>
+<div class="w-full flex justify-center">
+  <table class="mb-4 w-9/12 text-sm text-left text-gray-500 rounded">
+    <tr class="px-6 py-3 text-lg text-slate-800 uppercase bg-blue-50 border-solid border-b-2 border-slate-200">
+      <td class="border-solid border-r-2 border-slate-200"></td>
+      <th class="border-solid border-r-2 border-slate-200 px-6 py-3" scope="col">Tree</th>
+      <th class="border-solid border-r-2 border-slate-200 px-6 py-3" scope="col">Table</th>
+      <th class="border-solid border-r-2 border-slate-200 px-6 py-3" scope="col">Baguette</th>
+      <th class="border-solid border-r-2 border-slate-200 px-6 py-3" scope="col">Bird</th>
+      <th class="px-6 py-3" scope="col">Sailor</th>
+    </tr>
+    <tr class= "border-solid border-b-2 border-slate-200">
+      <th class="border-solid border-r-2 border-slate-200 px-6 py-3 text-lg text-slate-800 uppercase bg-blue-50 " scope="row">French</th>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".table", locale: :fr) %></td>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".tree", locale: :fr) %></td>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".baguette", locale: :fr) %></td>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".bird", locale: :fr) %></td>
+      <td class="px-6 py-3" ><%= I18n.t(".sailor", locale: :fr) %></td>
+    </tr>
+    <tr class= "border-solid border-b-2 border-slate-200">
+      <th class="border-solid border-r-2 border-slate-200 px-6 py-3 text-lg text-slate-800 uppercase bg-blue-50" scope="row">Spanish</th>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".table", locale: :es) %></td>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".tree", locale: :es) %></td>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".baguette", locale: :es) %></td>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".bird", locale: :es) %></td>
+      <td class="px-6 py-3" ><%= I18n.t(".sailor", locale: :es) %></td>
+    </tr>
+    <tr class= "border-solid border-b-2 border-slate-200">
+      <th class="border-solid border-r-2 border-slate-200 px-6 py-3 text-lg text-slate-800 uppercase bg-blue-50" scope="row">Italian</th>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".table", locale: :it) %></td>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".tree", locale: :it) %></td>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".baguette", locale: :it) %></td>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".bird", locale: :it) %></td>
+      <td class="px-6 py-3" ><%= I18n.t(".sailor", locale: :it) %></td>
+    </tr>
+    </tr class= "border-solid border-b-2 border-slate-200">
+      <tr>
+      <th class="border-solid border-r-2 border-slate-200 px-6 py-3 text-lg text-slate-800 uppercase bg-blue-50" scope="row">German</th>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".table", locale: :de) %></td>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".tree", locale: :de) %></td>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".baguette", locale: :de) %></td>
+      <td class="border-solid border-r-2 border-slate-200 px-6 py-3" ><%= I18n.t(".bird", locale: :de) %></td>
+      <td class200px-6 py-3" ><%= I18n.t(".sailor", locale: :de) %></td>
+    </tr>
+  </table>
+</div>
+
+<div class="my-8 w-full flex flex-col justify-cente items-center">
+  <%= link_to "Click here if you want to change translations !", locale_ninja_path, class: "text-lg bg-blue-50 rounded px-4 py-3 mb-4" %>
+  <p class="text-lg mb-4">When you save in the dashboard this will create a pull request : <%= link_to "Here", "https://github.com/squadracer/locale-ninja-test/pulls", class: "font-bold" %></p>
+  <p class="text-lg">When it's merge, this will update the array above ⤴️</p>
+</div>
