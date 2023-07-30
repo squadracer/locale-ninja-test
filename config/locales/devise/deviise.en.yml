@@ -1,0 +1,4 @@
+---
+en:
+  devise:
+    reset_password: reset password
