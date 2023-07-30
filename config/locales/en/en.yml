@@ -3,7 +3,9 @@ en:
   hello: Hello world
   table: table
   tree: tree
+  baguette: baguette
   sailor: sailor
+  bird: bird
   bye: Bye
   test:
     test_2: en
