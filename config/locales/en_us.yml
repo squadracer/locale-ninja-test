@@ -1,3 +1,6 @@
+---
 en_us:
   hello: Hi
   bye: ciao
+  test:
+    test_2: 'yes'
