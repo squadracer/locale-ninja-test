@@ -1,5 +1,17 @@
+---
 fr:
-  hello: "Salut le monde"
-  bye: "au revoir"
+  cat: chat
+  dog: chien
+  giraffe: girafe
+  gorilla: gorille
+  fish:
+    goldenfish: poisson rouge
+  devise:
+    reset_password: mot de passe oublié ?
+    email: email
+    password: mot de passe
+    username: identifiant
+  hello: Salut le monde
+  bye: au revoir
   test:
-    test_2: "fr"
+    test_2: fr
