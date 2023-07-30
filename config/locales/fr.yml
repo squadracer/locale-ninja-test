@@ -1,3 +1,12 @@
+---
 fr:
-  hello: "Salut le monde"
-  bye: "au revoir"
+  cat: chat
+  dog: chien
+  giraffe: girafe
+  gorilla: gorille
+  fish:
+    goldenfish: poisson rouge
+  hello: Salut le monde
+  bye: au revoir messieurs dames
+  test:
+    test_2: fr
