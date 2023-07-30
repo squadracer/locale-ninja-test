@@ -1,6 +1,7 @@
+---
 fr:
   devise:
-    reset_password: 'mot de passe oublié ?'
+    reset_password: mot de passe oublié ?
     email: email
-    password: 'mot de passe'
-    username: 'identifiant'
+    password: mot de passe
+    username: identifiant
