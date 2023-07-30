@@ -1,5 +1,6 @@
+---
 fr:
-  hello: "Salut le monde"
-  bye: "au revoir"
+  hello: Salut le monde
+  bye: au revoir au revoir président
   test:
-    test_2: "fr"
+    test_2: fr
