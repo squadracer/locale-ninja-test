@@ -1,0 +1,5 @@
+---
+de:
+  devise:
+    reset_password: passwurt
+    email: imeil
