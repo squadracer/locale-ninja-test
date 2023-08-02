@@ -1,6 +1,7 @@
 ---
 de:
   hello: Hallo welt
-  table: 'table maisnen '
+  table: table mais en allemand
   test:
     test_2: de
+  tree: arbre mais en allemand
