@@ -1,8 +1,9 @@
 ---
 fr:
   hello: Salut le monde
+  table: table
   test:
-    test_2: eezd
+    test_2: fr
   tree: arbre
   baguette: baguette
   sailor: matelos
