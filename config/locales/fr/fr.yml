@@ -1,10 +1,6 @@
+---
 fr:
-  hello: "Salut le monde"
-  table: ""
-  tree: ""
-  baguette: ""
-  sailor: ""
-  bird: ""
-  bye: "au revoir"
+  hello: Salut tout monde
+  bye: au revoir
   test:
-    test_2: "fr"
+    test_2: fr
