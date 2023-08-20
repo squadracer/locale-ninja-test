@@ -1,10 +1,6 @@
+---
 de:
-  hello: "Hallo welt"
-  table: ""
-  tree: ""
-  baguette: ""
-  sailor: ""
-  bird: ""
-  bye: ""
+  hello: Hallo welt
+  bird: Oiseau en allemand
   test:
-    test_2: "de"
+    test_2: de
