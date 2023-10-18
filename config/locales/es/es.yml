@@ -1,10 +1,5 @@
+---
 es:
-  hello: "Hallo welt"
-  table: ""
-  tree: ""
-  baguette: ""
-  sailor: ""
-  bird: ""
-  bye: ""
+  hello: Hallo from spain
   test:
-    test_2: "de"
+    test_2: de

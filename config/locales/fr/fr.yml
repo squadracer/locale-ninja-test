@@ -1,10 +1,11 @@
 ---
 fr:
   hello: Salut le monde
+  table: table
+  test:
+    test_2: test
   tree: arbre
   baguette: baguette
   sailor: matelos
   bird: oiseau
   bye: au revoir
-  test:
-    test_2: fr
